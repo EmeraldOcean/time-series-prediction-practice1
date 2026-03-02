@@ -44,6 +44,6 @@ LSTM과 Autoencoder 두 가지 모델 아키텍처를 구현하여 성능을 비
 <img width="2364" height="2364" alt="roc_curve" src="https://github.com/user-attachments/assets/7644da3f-6320-484b-b353-781aa6487a33" />
   
   
-📖 How to Use
+📖 How to Use  
 config.ini 파일에서 원하는 방식대로 설정한 후, 아래의 명령어를 입력합니다.
 `python main.py`
