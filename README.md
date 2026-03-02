@@ -14,7 +14,7 @@ LSTM과 Autoencoder 두 가지 모델 아키텍처를 구현하여 성능을 비
 - 시계열 데이터의 순차적 특성을 학습하여 다음 시점의 값을 직접 예측합니다. 과거의 트렌드를 파악하는 데 강점이 있습니다.  
 
 2. Autoencoder
-- 입력 데이터를 압축(Encoding)한 후 다시 복원(Decoding)하는 과정을 거칩니다. 정상 데이터의 패턴을 학습하여, 복원 오차가 큰 데이터를 이상치로 간주하는 방식에 사용됩니다.
+- 입력 데이터를 압축(Encoding)한 후 다시 복원(Decoding)하는 과정을 거칩니다. 정상 데이터의 패턴을 학습하여, 복원 오차가 큰 데이터를 이상치로 간주하는 방식에 사용됩니다.  
 <br><br>
 🚀 Workflow  
 프로젝트의 전체 실행 흐름은 다음과 같습니다.  
@@ -29,13 +29,13 @@ LSTM과 Autoencoder 두 가지 모델 아키텍처를 구현하여 성능을 비
 - preprocessing.py: 데이터 로드 및 전처리 스크립트
 - models/: LSTM 및 AutoEncoder 모델 정의
 - train.py: 모델 학습 스크립트
-- eval.py: 테스트 및 결과 시각화
+- eval.py: 테스트 및 결과 시각화  
 <br><br>
 📈 Result Visualization  
 학습 결과와 임계치를 시각화하여 모델이 얼마나 정확하게 이상치를 잡아내는지 확인할 수 있습니다.
 <img width="2305" height="2364" alt="confusion_matrix" src="https://github.com/user-attachments/assets/2c2d4f18-52ce-4287-8362-041fd645eb13" />
 <img width="2364" height="2364" alt="roc_curve" src="https://github.com/user-attachments/assets/7644da3f-6320-484b-b353-781aa6487a33" />
-<br><br>
+<br><br>  
 📖 How to Use  
 `config.ini` 파일에서 원하는 방식대로 설정한 후, 아래의 명령어를 입력합니다.  
 
