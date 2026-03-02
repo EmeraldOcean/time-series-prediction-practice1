@@ -39,5 +39,6 @@ LSTM과 Autoencoder 두 가지 모델 아키텍처를 구현하여 성능을 비
 📖 How to Use  
 - config.ini 파일에서 원하는 방식대로 설정한 후, 아래의 명령어를 입력합니다.  
 ```bash
+git clone [https://github.com/your-repo.git](https://github.com/your-repo.git)
+cd your-repo
 python main.py
-```
